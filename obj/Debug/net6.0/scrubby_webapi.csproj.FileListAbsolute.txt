@@ -1,0 +1,7 @@
+C:\Users\Vang\OneDrive\Desktop\level3pro\Scrubby_webApi\obj\Debug\net6.0\scrubby_webapi.csproj.AssemblyReference.cache
+C:\Users\Vang\OneDrive\Desktop\level3pro\Scrubby_webApi\obj\Debug\net6.0\scrubby_webapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vang\OneDrive\Desktop\level3pro\Scrubby_webApi\obj\Debug\net6.0\scrubby_webapi.AssemblyInfoInputs.cache
+C:\Users\Vang\OneDrive\Desktop\level3pro\Scrubby_webApi\obj\Debug\net6.0\scrubby_webapi.AssemblyInfo.cs
+C:\Users\Vang\OneDrive\Desktop\level3pro\Scrubby_webApi\obj\Debug\net6.0\scrubby_webapi.csproj.CoreCompileInputs.cache
+C:\Users\Vang\OneDrive\Desktop\level3pro\Scrubby_webApi\obj\Debug\net6.0\scrubby_webapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vang\OneDrive\Desktop\level3pro\Scrubby_webApi\obj\Debug\net6.0\scrubby_webapi.MvcApplicationPartsAssemblyInfo.cache

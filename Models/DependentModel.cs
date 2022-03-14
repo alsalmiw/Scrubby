@@ -13,7 +13,6 @@ namespace Scrubby_webApi.Models
         public int DependentAge { get; set; }
         public string DependentPhoto { get; set; }
         public int DependentCoins { get; set; }
-        public string DependentBadge { get; set; }
         public bool isDeleted { get; set; }
 
         public DependentModel(){}

@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Scrubby_webApi.Services;
+using Scrubby_webApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Scrubby_webApi.Controllers
@@ -20,7 +22,7 @@ namespace Scrubby_webApi.Controllers
         {
             return _data.AddDependent(newDependent);
         }
-        
+
         [HttpPost("UpdateDependent")]
         public bool UpdateDependent(DependentModel DependentUpdate)
         {
