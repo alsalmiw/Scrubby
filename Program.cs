@@ -1,6 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using scrubby_webapi.Services;
+using scrubby_webapi.Services.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped <UserService>();
+var ConnectionString = builder.Configuration.GetConnectionString("MyScrubbyString");
+
+builder.Services.AddDbContext<DataContext>(Options => Options.UseSqlServer(ConnectionString));
+
+builder.Services.AddCors(options => {
+options.AddPolicy("ScrubbyPolicy",
+builder => {builder.WithOrigins("http://localhost:3000")
+    .AllowAnyHeader()
+    .AllowAnyMethod();
+});
+});
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
