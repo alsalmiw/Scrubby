@@ -34,7 +34,7 @@ if (app.Environment.IsDevelopment())
 }
 
 //app.UseHttpsRedirection();
-
+app.UseCors("ScrubbyPolicy");
 app.UseAuthorization();
 
 app.MapControllers();
