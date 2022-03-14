@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace scrubby_webapi.Services.Context
 {
-    public class DataContext
+    public class DataContext :DbContext
     {
-        
+        public DbSet<DependentModel> DependentInfo {get; set;}
     }
 }
