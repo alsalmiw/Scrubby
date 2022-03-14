@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Scrubby_webApi.Models;
-using Scrubby_webApi.Services.Context;
+using scrubby_webapi.Models;
+using scrubby_webapi.Services.Context;
 
-namespace Scrubby_webApi.Services
+namespace scrubby_webapi.Services
 {
     public class DependentService
     {

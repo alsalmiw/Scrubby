@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Scrubby_webApi.Services;
-using Scrubby_webApi.Models;
+using scrubby_webapi.Services;
+using scrubby_webapi.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Scrubby_webApi.Controllers
+namespace scrubby_webapi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

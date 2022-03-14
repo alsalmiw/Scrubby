@@ -1,5 +1,5 @@
-using Scrubby_webApi.Services;
-using Scrubby_webApi.Services.Context;
+using scrubby_webapi.Services;
+using scrubby_webapi.Services.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

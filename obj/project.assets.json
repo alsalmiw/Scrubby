@@ -2063,11 +2063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vang\\OneDrive\\Desktop\\level3pro\\Scrubby_webApi\\scrubby_webapi.csproj",
+      "projectUniqueName": "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\scrubby_webapi.csproj",
       "projectName": "scrubby_webapi",
-      "projectPath": "C:\\Users\\Vang\\OneDrive\\Desktop\\level3pro\\Scrubby_webApi\\scrubby_webapi.csproj",
+      "projectPath": "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\scrubby_webapi.csproj",
       "packagesPath": "C:\\Users\\Vang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vang\\OneDrive\\Desktop\\level3pro\\Scrubby_webApi\\obj\\",
+      "outputPath": "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vang\\AppData\\Roaming\\NuGet\\NuGet.Config"

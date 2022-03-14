@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Scrubby_webApi.Models;
+using scrubby_webapi.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace scrubby_webapi.Services.Context
