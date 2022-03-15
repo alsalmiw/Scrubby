@@ -1,12 +1,23 @@
+using Microsoft.EntityFrameworkCore;
 using scrubby_webapi.Services;
 using scrubby_webapi.Services.Context;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped <UserService>();
 builder.Services.AddScoped<DependentService>();
-//builder.Services.AddScoped<DataContext>();
+var ConnectionString = builder.Configuration.GetConnectionString("MyScrubbyString");
+
+builder.Services.AddDbContext<DataContext>(Options => Options.UseSqlServer(ConnectionString));
+
+builder.Services.AddCors(options => {
+options.AddPolicy("ScrubbyPolicy",
+builder => {builder.WithOrigins("http://localhost:3000")
+    .AllowAnyHeader()
+    .AllowAnyMethod();
+});
+});
 
 
 builder.Services.AddControllers();
@@ -24,7 +35,7 @@ if (app.Environment.IsDevelopment())
 }
 
 //app.UseHttpsRedirection();
-
+app.UseCors("ScrubbyPolicy");
 app.UseAuthorization();
 
 app.MapControllers();

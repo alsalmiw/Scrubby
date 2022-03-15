@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\scrubby_webapi.csproj": {}
+    "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\scrubby_webapi.csproj": {
+    "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\scrubby_webapi.csproj",
+        "projectUniqueName": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj",
         "projectName": "scrubby_webapi",
-        "projectPath": "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\scrubby_webapi.csproj",
-        "packagesPath": "C:\\Users\\Vang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vang\\OneDrive\\Desktop\\scrubby\\scrubby_webapi\\obj\\",
+        "projectPath": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj",
+        "packagesPath": "/Users/walaa/.nuget/packages/",
+        "outputPath": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/walaa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,8 +43,6 @@
               "version": "[6.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.3, )"
             },
@@ -81,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
