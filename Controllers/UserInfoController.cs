@@ -18,11 +18,11 @@ namespace Scrubby.Controllers
         }
 
         [HttpGet]
-        [Route("GetAllUserInfo")]
+        [Route("GetUserInfo/{userid}")]
 
-        public List<UserInfoModel> GetUserInfoList()
+        public UserInfoModel GetUserInfo(int? userid)
         {
-            return _data.GetUserInfoList();
+            return _data.GetUserInfo(userid);
         }
     }
 }
