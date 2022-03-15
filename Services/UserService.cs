@@ -40,6 +40,7 @@ namespace scrubby_webapi.Services
         {
             PasswordDTO newHashedPassword = new PasswordDTO();
             byte[] SaltBytes = new byte[64];
+            //new way of doing random
             var provider = RandomNumberGenerator.Create();
             provider.GetNonZeroBytes(SaltBytes);
             var Salt = Convert.ToBase64String(SaltBytes);
