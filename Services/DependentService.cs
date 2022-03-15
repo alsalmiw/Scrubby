@@ -7,7 +7,7 @@ using scrubby_webapi.Services.Context;
 
 namespace scrubby_webapi.Services
 {
-    public class DependentService:
+    public class DependentService :
     {
         private readonly DataContext _context;
         public DependentService(DataContext context)
