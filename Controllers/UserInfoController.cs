@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Scrubby.Controllers
+namespace scrubby_webapi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

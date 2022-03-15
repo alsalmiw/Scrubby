@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Scrubby.Models
+namespace scrubby_webapi.Models
 {
     public class UserInfoModel
     {
