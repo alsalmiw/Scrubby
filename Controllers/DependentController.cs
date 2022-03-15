@@ -18,15 +18,15 @@ namespace scrubby_webapi.Controllers
             _data = dataFromDependentService;
         }
         [HttpPost("AddDependent")]
-        public bool AddDependent(DependentModel newDependent)
+        public bool AddDependent (DependentModel newDependent)
         {
             return _data.AddDependent(newDependent);
         }
 
         [HttpPost("UpdateDependent")]
-        public bool UpdateDependent(DependentModel DependentUpdate)
+        public bool UpdateDependent (DependentModel dependentUpdate)
         {
-            return _data.UpdateDependent(DependentUpdate);
+            return _data.UpdateDependent(dependentUpdate);
         }
     }
 }
