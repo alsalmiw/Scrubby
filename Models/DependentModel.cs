@@ -16,8 +16,5 @@ namespace scrubby_webapi.Models
         public bool isDeleted { get; set; }
 
         public DependentModel(){}
-
-
-
     }
 }
