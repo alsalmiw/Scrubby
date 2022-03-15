@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using scrubby_webapi.Models;
+using scrubby_webapi.Services.Context;
 
 namespace scrubby_webapi.Services
 {
@@ -62,7 +63,7 @@ namespace scrubby_webapi.Services
 
         public UserInfoModel GetUserInfo(int? userid)
         {
-            return _context.UserInfo.SingleOrDefault(userid => userid.UserId == userid);
+            return _context.UserInfo.SingleOrDefault(user => user.UserId == userid);
         }
     }
 }

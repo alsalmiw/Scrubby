@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -115,7 +115,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.3"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -2058,19 +2058,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/walaa/.nuget/packages/": {}
+    "/Users/BanjoKazooie/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj",
+      "projectUniqueName": "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/scrubby_webapi.csproj",
       "projectName": "scrubby_webapi",
-      "projectPath": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj",
-      "packagesPath": "/Users/walaa/.nuget/packages/",
-      "outputPath": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/obj/",
+      "projectPath": "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/scrubby_webapi.csproj",
+      "packagesPath": "/Users/BanjoKazooie/.nuget/packages/",
+      "outputPath": "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/walaa/.nuget/NuGet/NuGet.Config"
+        "/Users/BanjoKazooie/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

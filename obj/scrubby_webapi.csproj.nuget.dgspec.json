@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj": {}
+    "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/scrubby_webapi.csproj": {}
   },
   "projects": {
-    "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj": {
+    "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/scrubby_webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj",
+        "projectUniqueName": "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/scrubby_webapi.csproj",
         "projectName": "scrubby_webapi",
-        "projectPath": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/scrubby_webapi.csproj",
-        "packagesPath": "/Users/walaa/.nuget/packages/",
-        "outputPath": "/Users/walaa/Documents/CodeStack/Scrubby/scrubby_webapi/obj/",
+        "projectPath": "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/scrubby_webapi.csproj",
+        "packagesPath": "/Users/BanjoKazooie/.nuget/packages/",
+        "outputPath": "/Users/BanjoKazooie/Desktop/scrubby2/Scrubby/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/walaa/.nuget/NuGet/NuGet.Config"
+          "/Users/BanjoKazooie/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,6 +46,8 @@
               "version": "[6.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.3, )"
             },
